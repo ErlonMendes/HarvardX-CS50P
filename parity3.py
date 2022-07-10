@@ -4,6 +4,10 @@ def main():
         print(f"{num} is even")
     else:
         print(f"{num} is odd")
+
+
 def is_even(x):
     return True if x % 2 == 0 else False  # Agora em uma única linha
+
+
 main()

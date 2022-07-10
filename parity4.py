@@ -4,6 +4,10 @@ def main():
         print(f"{num} is even")
     else:
         print(f"{num} is odd")
+
+
 def is_even(x):
     return x % 2 == 0  # Porque a resposta dessa bagaça já é booleana kkk
+
+
 main()
