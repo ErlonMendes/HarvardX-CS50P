@@ -10,5 +10,9 @@ def hello(name):
 def goodbye(name):
     print(f"Goodbye, {name}")
 
-if __name__ == "__main__":  # Resolve o problema da execução obrigatória do main, para usar este programa como biblioteca
+
+if (
+    __name__ == "__main__"
+):  # Só executa o main caso o próprio programa seja executado. Resolve o problema da execução
+    # obrigatória do main, permitindo usar este programa como biblioteca pessoal das suas funções
     main()

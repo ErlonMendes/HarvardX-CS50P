@@ -1,0 +1,1 @@
+print(type("Hello, world!"))
